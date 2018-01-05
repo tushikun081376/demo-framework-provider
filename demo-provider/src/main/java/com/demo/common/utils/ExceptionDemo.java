@@ -1,16 +1,17 @@
 package com.demo.common.utils;
 
+import org.apache.log4j.Logger;
+
 
 public class ExceptionDemo {
 
+	private static Logger log = Logger.getLogger(ExceptionDemo.class);
 	
 	public static void main(String[] args) {
 		try{
-			String a = null;
-			int b = a.length();
 			throw new Exception("123");
 		}catch(Exception e){
-			
+			log.debug(e.getMessage(),e);
 		}
 	}
 }
