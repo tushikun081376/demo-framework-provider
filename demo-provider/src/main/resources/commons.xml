@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root[
+	<!ELEMENT root (import-properties*)>
+	<!ATTLIST import-properties
+		key CDATA #REQUIRED
+		value CDATA #REQUIRED
+		comment CDATA #REQUIRED
+	>
+]>
+<root>
+    <import-properties key="sysmeun" value="/properties/conf.properties" comment="系统配置"/>
+</root>
