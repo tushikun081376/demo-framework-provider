@@ -1,4 +1,4 @@
-package org.quartz_cheduler.quartz;
+package org.quartz_scheduler.quartz;
 
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Component;
