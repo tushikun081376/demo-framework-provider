@@ -12,7 +12,7 @@
 	<aop:config proxy-target-class="true" />
 	
 	<!-- 自动扫描的包名 --> 
-	<context:component-scan base-package="com.taiji" />
+	<context:component-scan base-package="com.kalian" />
 	
 	<!-- 配置文件注册 -->
 	<bean id="configProperties" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
